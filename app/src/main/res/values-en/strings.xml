@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZXY</string>
+    <string name="zapatillastitulo">ZXY Shoes And Sneakers</string>
+    <string name="genero">Gender</string>
+    <string name="tipozapato">Type of Shoe</string>
+    <string name="marca">Brand</string>
+    <string name="cantidadzapatos">Quantity</string>
+    <string name="comprar">Buy</string>
+    <string name="totalapagar">Checkout</string>
+    <string name="zapatilla">Sneakers</string>
+    <string name="clasico">Classic</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="masculino">Male</string>
+    <string name="femenino">Female</string>
+</resources>

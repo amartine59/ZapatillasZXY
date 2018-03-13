@@ -7,4 +7,11 @@
     <string name="cantidadzapatos">Cantidad</string>
     <string name="comprar">Comprar</string>
     <string name="totalapagar">Total a Pagar</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clasico</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
 </resources>
