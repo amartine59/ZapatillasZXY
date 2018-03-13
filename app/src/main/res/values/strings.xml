@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ZXY</string>
+    <string name="zapatillastitulo">Zapatillas ZXY</string>
+    <string name="genero">Genero</string>
+    <string name="tipozapato">Tipo de Zapato</string>
+    <string name="marca">Marca</string>
+    <string name="cantidadzapatos">Cantidad</string>
+    <string name="comprar">Comprar</string>
+    <string name="totalapagar">Total a Pagar</string>
 </resources>
