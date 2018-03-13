@@ -27,4 +27,6 @@
         <item>@string/adidas</item>
         <item>@string/puma</item>
     </string-array>
+    <string name="errorvacio">Digite la cantidad de zapatos</string>
+    <string name="errornegativo">No ingrese valores negativos</string>
 </resources>
