@@ -41,7 +41,88 @@ public class Main extends AppCompatActivity {
 
     }
     public void calcularPago(View v){
+       int cant,precio=0,opcGenero,opcTZapato,opcMarca,valorPagar=0;
+       opcGenero = listaGenero.getSelectedItemPosition();
+       opcTZapato = listaTipoZapato.getSelectedItemPosition();
+       opcMarca = listaMarca.getSelectedItemPosition();
+       cant = Integer.parseInt(cantidad.getText().toString());
 
+       switch (opcGenero){
+           case 0://Masculino
+               switch (opcTZapato){
+                   case 0://Masculino - Zapatilla
+                       switch (opcMarca){
+                           case 0://Masculino - Zapatilla - Nike
+                               precio = 120000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 1://Masculino - Zapatilla - Adidas
+                               precio = 140000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 2://Masculino - Zapatilla - Puma
+                               precio = 130000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                       }
+                   break;
+                   case 1://Masculino - Clasico
+                       switch (opcMarca){
+                           case 0://Masculino - Clasico - Nike
+                               precio = 50000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 1://Masculino - Clasico - Adidas
+                               precio = 80000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 2://Masculino - Clasico - Puma
+                               precio = 100000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                       }
+                   break;
+               }
+           break;
+           case 1://Femenino
+               switch (opcTZapato){
+                   case 0://Femenino - Zapatilla
+                       switch (opcMarca){
+                           case 0://Femenino - Zapatilla - Nike
+                               precio = 100000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 1://Femenino - Zapatilla - Adidas
+                               precio = 130000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 2://Femenino - Zapatilla - Puma
+                               precio = 110000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                       }
+                   break;
+                   case 1://Femenino - Clasico
+                       switch (opcMarca){
+                           case 0://Femenino - Clasico - Nike
+                               precio = 60000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 1://Femenino - Clasico - Adidas
+                               precio = 70000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                           case 2://Femenino - Clasico - Puma
+                               precio = 120000;
+                               valorPagar = Metodos.totalPagar(cant,precio);
+                               break;
+                       }
+                   break;
+               }
+               break;
+       }
+
+        totalPagar.setText(""+ valorPagar);
 
     }
 }
