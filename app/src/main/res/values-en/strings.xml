@@ -15,6 +15,6 @@
     <string name="puma">Puma</string>
     <string name="masculino">Male</string>
     <string name="femenino">Female</string>
-    <string name="errorvacio">Type amout of pairs you wanna buy</string>
-    <string name="errornegativo">Negatives values are not allowed</string>
+    <string name="errorvacio">Type the amout of pairs you wanna buy</string>
+    <string name="errornegativo">You cannot buy less than one pair of shoes lol</string>
 </resources>

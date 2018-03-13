@@ -17,10 +17,21 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+   public void masculino_zapatilla_Nike_cuatropares(){
+        int cant = 4, precio=120000;
+        int res = Metodos.totalPagar(cant,precio);
+        assertEquals(480000,res,0);
+    }
 
-        assertEquals("amartine59.zxy", appContext.getPackageName());
+    public void femenino_zapatilla_puma_dospares(){
+        int cant = 2, precio=110000;
+        int res = Metodos.totalPagar(cant,precio);
+        assertEquals(220000,res,0);
+    }
+
+    public void masculino_clasico_puma_trespares(){
+        int cant = 3, precio = 100000;
+        int res = Metodos.totalPagar(cant,precio);
+        assertEquals(300000,res,0);
     }
 }
