@@ -3,6 +3,7 @@ package amartine59.zxy;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,6 +38,10 @@ public class Main extends AppCompatActivity {
         lMarca = recursos.getStringArray(R.array.l_Marca);
         ArrayAdapter<String>adpMarca = new ArrayAdapter(this,android.R.layout.simple_spinner_item,lMarca);
         listaMarca.setAdapter(adpMarca);
+
+    }
+    public void calcularPago(View v){
+
 
     }
 }
